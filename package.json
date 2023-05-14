@@ -14,10 +14,12 @@
     "crunchtime": "./bin/crunchtime.js"
   },
   "dependencies": {
-    "base-puppeteer": "https://github.com/pyrosec/base-puppeteer"
+    "base-puppeteer": "https://github.com/pyrosec/base-puppeteer",
+    "node-fetch": "2"
   },
   "devDependencies": {
     "@types/node": "^20.1.4",
+    "nice-repl": "^0.1.2",
     "typescript": "^5.1.0-dev.20230514"
   }
 }
