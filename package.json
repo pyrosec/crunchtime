@@ -1,0 +1,23 @@
+{
+  "name": "crunchtime",
+  "version": "0.1.0",
+  "description": "scrape crunchbase data on VCs",
+  "main": "lib/index.js",
+  "repository": "https://github.com/pyrosec/crunchtime",
+  "author": "pyrosec",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "crunchtime": "./bin/crunchtime.js"
+  },
+  "dependencies": {
+    "base-puppeteer": "https://github.com/pyrosec/base-puppeteer"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "typescript": "^5.1.0-dev.20230514"
+  }
+}
